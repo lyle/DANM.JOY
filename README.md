@@ -27,7 +27,7 @@ NPM and Node
 ------------
 
 Some of these examples use 'modules' of other code, they are included in the project by using this sort of syntax:
-  var exec = require('child_process').exec
+    var exec = require('child_process').exec
 The above example uses a module that is core to Node which means you do not need to install it to get it to work. Other modules you will need to install in your computer. You do this by using the 'npm' command. Please take a look at this [introduction to NPM](https://npmjs.org/doc/npm.html).
   npm install node-osc
 Will install the Node Open Sound Contol module so you can use the module (like in 010_osc.js)
@@ -57,15 +57,15 @@ I really like this "play" command line tool which is part of the [SoX - Sound eX
 And for OS X you can use brew to isntall it:
 * [Install Homebrew](https://github.com/mxcl/homebrew/wiki/installation)
 * Then install SoX using homebrew
-  bew install sox
+    brew install sox
 After you install SoX you can play an audio file from the command line:
-  play mp3file.mp3
+    play mp3file.mp3
 Here is something that you can run to listen to random:
-  play -c1 -r 44k -t s8 /dev/urandom
+    play -c1 -r 44k -t s8 /dev/urandom
 (You can stop a running terminal command with a 'Conrtol + C'
 
 If you do not want to do all of that you can make some sound on OS X using this command:
-  say stuff
+    say stuff
 But you will not be able to run some demos below.
 
 007_say.js
