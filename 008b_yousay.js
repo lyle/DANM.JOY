@@ -17,9 +17,10 @@ http.createServer(function (req, res) {
   if(daQuery["fromName"]){
        fromPerson = daQuery["fromName"].replace(/[\W\s\.-\?\!]/g,' ')
   }
-
-  console.log(fromPerson + " said:" + toSay)
-  messages.push(fromPerson + " said:" + toSay)
+  if(toSay){
+    console.log(fromPerson + " said:" + toSay)
+    messages.push(fromPerson + " said:" + toSay)
+  }
   
   req.on('end',function(){
     if(toSay){
