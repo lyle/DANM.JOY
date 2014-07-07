@@ -1,0 +1,30 @@
+{
+  "name": "danm-joy",
+  "version": "0.1.0",
+  "description": "Some examples of programing in node.js for the Digital Arts and New Media Program at UCSC",
+  "main": "001.js",
+  "dependencies": {
+    "baudio": "^2.1.2",
+    "node-osc": "^0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lyle/DANM.JOY.git"
+  },
+  "homepage": "https://github.com/lyle/DANM.JOY",
+  "keywords": [
+    "node",
+    "audio",
+    "education",
+    "osc",
+    "say",
+    "mp3",
+    "express"
+  ],
+  "author": {
+    "name": "Lyle Troxell",
+    "email": "lyle@troxell.com",
+    "url": "http://lyle.troxell.com"
+  },
+  "license": "MIT"
+}
